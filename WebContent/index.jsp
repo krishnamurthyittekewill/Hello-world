@@ -14,6 +14,7 @@ Name:<input type="text" name="name1" onkeyup="show1(this.value)"/>
 <input type="submit"/>
 </form>
 <script type="text/javascript">
+alert("Edited... by Raj");
 function pick2(symbol) {
 	  document.f1.name1.value= symbol;
 	  document.getElementById("livesearch").innerHTML="";
